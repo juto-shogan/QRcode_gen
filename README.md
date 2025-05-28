@@ -52,7 +52,7 @@ To generate a QR code, run the `qrGen.py` script:
 python qrGen.py # for windows
 ```
 
-``bash
+```bash
 python3 qrGen.py # for linux
 ```
 
