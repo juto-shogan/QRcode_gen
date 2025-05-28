@@ -1,7 +1,7 @@
 ```markdown
 # QR Code Generator and Scanner
 
-This repository contains two simple Python scripts: one for generating QR codes from user input and another for scanning QR codes using a webcam.
+This repository contains two simple Python scripts: one for generating QR codes from user input and another for scanning QR codes.
 
 ## Features
 
@@ -14,13 +14,14 @@ You will also need the following Python libraries:
 * `qrcode`
 * `opencv-python` (OpenCV)
 * `pyzbar`
+```
 
 ## Usage
 
 ### Generating a QR Code
 
 To generate a QR code, run the `qrGen.py` script:
-```
+
 ```bash
 python qrGen.py
 ```
