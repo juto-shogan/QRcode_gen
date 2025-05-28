@@ -49,11 +49,7 @@ You will also need the following Python libraries:
 To generate a QR code, run the `qrGen.py` script:
 
 ```bash
-python qrGen.py # for windows
-```
-
-```bash
-python3 qrGen.py # for linux
+python qrGen.py
 ```
 
 The script will prompt you to "Enter the data you want to encode in the QR code:". After entering your text, a QR code image named `qr_code.png` will be saved in the same directory.
@@ -63,9 +59,5 @@ The script will prompt you to "Enter the data you want to encode in the QR code:
 To scan QR codes using your webcam, run the `qrScan.py` script:
 
 ```bash
-python qrScan.py # for windows
-```
-
-```bash
-python3 qrscan.py # for linux
+python qrScan.py
 ```
