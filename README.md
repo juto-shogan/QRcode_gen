@@ -17,31 +17,6 @@ You will also need the following Python libraries:
 * `opencv-python` (OpenCV)
 * `pyzbar`
 
-## Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/juto-shogan/QRcode_gen.git](https://github.com/juto-shogan/QRcode_gen.git)
-    cd QRcode_gen
-    ```
-
-2.  **Install the required Python libraries:**
-    It's recommended to use a virtual environment.
-
-    ```bash
-    # Create a virtual environment
-    python -m venv venv
-
-    # Activate the virtual environment
-    # On Windows:
-    # venv\Scripts\activate
-    # On macOS/Linux:
-    # source venv/bin/activate
-
-    # Install the libraries
-    pip install qrcode opencv-python pyzbar
-    ```
-
 ## Usage
 
 ### Generating a QR Code
