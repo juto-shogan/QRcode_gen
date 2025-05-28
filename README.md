@@ -9,8 +9,6 @@ This repository contains two simple Python scripts: one for generating QR codes 
 * **`qrScan.py`**: Utilises your webcam to detect and decode QR codes in real-time. It displays the decoded data on the screen.
 
 ## Prerequisites
-
-You will need to install Python on your system to run these scripts.
 You will also need the following Python libraries:
 
 * `qrcode`
@@ -22,7 +20,7 @@ You will also need the following Python libraries:
 ### Generating a QR Code
 
 To generate a QR code, run the `qrGen.py` script:
-
+```
 ```bash
 python qrGen.py
 ```
