@@ -3,7 +3,7 @@ import qrcode
 # User input for data to encode
 data = input("Enter the data you want to encode in the QR code: ")
 
-# Create a QR code object with error correction level (optional)
+# Create a QR code object with error correction level
 qr = qrcode.QRCode(
     version=1,  # Adjust version for size and data capacity
     error_correction=qrcode.constants.ERROR_CORRECT_H,  # Choose error correction level
@@ -20,4 +20,3 @@ img = qr.make_image(fill_color="black", back_color="white")
 img.save("qr_code.png")
 
 print("QR code generated and saved as qr_code.png")
- 
